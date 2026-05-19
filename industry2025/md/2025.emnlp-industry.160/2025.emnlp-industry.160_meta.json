@@ -1,0 +1,1118 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DAST: Difficulty-Adaptive Slow-Thinking for Large Reasoning Models",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          80.3203125,
+          79.27593994140625
+        ],
+        [
+          515.6796875,
+          79.27593994140625
+        ],
+        [
+          515.6796875,
+          93.62286376953125
+        ],
+        [
+          80.3203125,
+          93.62286376953125
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          156.857421875,
+          222.1624755859375
+        ],
+        [
+          202.2403564453125,
+          222.1624755859375
+        ],
+        [
+          202.2403564453125,
+          234.11822509765625
+        ],
+        [
+          156.857421875,
+          234.11822509765625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.84375,
+          582.5823669433594
+        ],
+        [
+          153.67434692382812,
+          582.5823669433594
+        ],
+        [
+          153.67434692382812,
+          594.5381622314453
+        ],
+        [
+          69.84375,
+          594.5381622314453
+        ]
+      ]
+    },
+    {
+      "title": "2 Methodology",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          306.144287109375,
+          404.1435546875
+        ],
+        [
+          391.70703125,
+          404.1435546875
+        ],
+        [
+          391.70703125,
+          417.2213439941406
+        ],
+        [
+          306.144287109375,
+          417.2213439941406
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Token Length Budget Definition",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.42578125,
+          262.4220837043633
+        ],
+        [
+          246.2065491183879,
+          262.4220837043633
+        ],
+        [
+          246.2065491183879,
+          272.9921875
+        ],
+        [
+          70.42578125,
+          272.9921875
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Reward Score Calibration",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          68.6796875,
+          636.8447265625
+        ],
+        [
+          218.43324937027705,
+          636.8447265625
+        ],
+        [
+          218.43324937027705,
+          647.0578806767586
+        ],
+        [
+          68.6796875,
+          647.0578806767586
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Budget Preference Data Construction",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          304.40234375,
+          636.5609973285841
+        ],
+        [
+          507.4256926952141,
+          636.5609973285841
+        ],
+        [
+          507.4256926952141,
+          646.3081032947462
+        ],
+        [
+          304.40234375,
+          646.3081032947462
+        ]
+      ]
+    },
+    {
+      "title": "2.4 Budget Preference Training",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          304.40234375,
+          251.1754229741763
+        ],
+        [
+          460.88664987405537,
+          251.1754229741763
+        ],
+        [
+          460.88664987405537,
+          261.8916015625
+        ],
+        [
+          304.40234375,
+          261.8916015625
+        ]
+      ]
+    },
+    {
+      "title": "3 Experiments",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          305.56640625,
+          449.1166518254675
+        ],
+        [
+          390.32745591939545,
+          449.1166518254675
+        ],
+        [
+          390.32745591939545,
+          459.613535173642
+        ],
+        [
+          305.56640625,
+          459.613535173642
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Experimental Setup",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          306.1484375,
+          471.6099732858415
+        ],
+        [
+          425.6070528967254,
+          471.6099732858415
+        ],
+        [
+          425.6070528967254,
+          481.4365234375
+        ],
+        [
+          306.1484375,
+          481.4365234375
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Results and Analysis",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.552734375,
+          698.8571014404297
+        ],
+        [
+          191.7899627685547,
+          698.8571014404297
+        ],
+        [
+          191.7899627685547,
+          709.7667388916016
+        ],
+        [
+          69.552734375,
+          709.7667388916016
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1 Overall Results",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.84375,
+          715.7822265625
+        ],
+        [
+          175.7734375,
+          715.7822265625
+        ],
+        [
+          175.7734375,
+          727.2435989379883
+        ],
+        [
+          69.84375,
+          727.2435989379883
+        ]
+      ]
+    },
+    {
+      "title": "3.2.2 Fine-grained Analysis",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.05793450881612,
+          514.347284060552
+        ],
+        [
+          206.42317380352642,
+          514.347284060552
+        ],
+        [
+          206.42317380352642,
+          524.8441674087265
+        ],
+        [
+          69.05793450881612,
+          524.8441674087265
+        ]
+      ]
+    },
+    {
+      "title": "3.2.3 Ablation Study",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          304.7556675062972,
+          622.3152270703473
+        ],
+        [
+          410.5944584382871,
+          622.3152270703473
+        ],
+        [
+          410.5944584382871,
+          632.8121104185218
+        ],
+        [
+          304.7556675062972,
+          632.8121104185218
+        ]
+      ]
+    },
+    {
+      "title": "3.2.4 Impact of Truncation Threshold",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.26171875,
+          442.58428955078125
+        ],
+        [
+          253.811279296875,
+          442.58428955078125
+        ],
+        [
+          253.811279296875,
+          453.49395751953125
+        ],
+        [
+          69.26171875,
+          453.49395751953125
+        ]
+      ]
+    },
+    {
+      "title": "4 Related Work",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.84375,
+          699.3369140625
+        ],
+        [
+          159.95114135742188,
+          699.3369140625
+        ],
+        [
+          159.95114135742188,
+          713.3650970458984
+        ],
+        [
+          69.84375,
+          713.3650970458984
+        ]
+      ]
+    },
+    {
+      "title": "5 Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          304.693359375,
+          620.3994140625
+        ],
+        [
+          381.2147521972656,
+          620.3994140625
+        ],
+        [
+          381.2147521972656,
+          632.6290740966797
+        ],
+        [
+          304.693359375,
+          632.6290740966797
+        ]
+      ]
+    },
+    {
+      "title": "Limitations",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          69.84375,
+          71.9482421875
+        ],
+        [
+          129.9779510498047,
+          71.9482421875
+        ],
+        [
+          129.9779510498047,
+          85.0487060546875
+        ],
+        [
+          69.84375,
+          85.0487060546875
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          69.552734375,
+          436.2119140625
+        ],
+        [
+          126.40316772460938,
+          436.2119140625
+        ],
+        [
+          126.40316772460938,
+          449.6869812011719
+        ],
+        [
+          69.552734375,
+          449.6869812011719
+        ]
+      ]
+    },
+    {
+      "title": "A Case Study",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          305.56640625,
+          73.093017578125
+        ],
+        [
+          384.1917419433594,
+          73.093017578125
+        ],
+        [
+          384.1917419433594,
+          85.04876708984375
+        ],
+        [
+          305.56640625,
+          85.04876708984375
+        ]
+      ]
+    },
+    {
+      "title": "100+200-300=?\n[Thinking Process]\n<think>\nWell, the user is asking what 100 plus 200 minus 300 equals. First, I need to\nclarify the order of this calculation. According to the basic rules of\nmathematics, addition and subtraction are performed from left to right, so\nfirst calculate 100 plus 200, and then subtract 300. \nWhat is 100 plus 200? 100 plus 200 equals300, no problem there. Next,\nsubtract 300 from 300, and the result is 0. It seems quite simple, but to ensure\naccuracy, I can double-check the calculation process. \nAlternatively, I can do it step by step: 100 plus 200 is 300, and then 300\nminus 300 is indeed 0. Calculating it this way, the result remains the same. \nAdditionally, I can verify it another way, for example, by viewing the entire\nexpression as 100 + (200 - 300). In this case, 200 minus 300 is -100, and then\n100 plus (-100) is also 0. This method of calculation also yields aconsistent\nresult, so the answer is correct. \nOverall, whether calculating from left to right or adjusting the position of the\nparentheses, the result is 0. Therefore, the answer to the user's question is 0. \n<think>\n[Final Response]\nThe calculation process for 100 + 200 - 300 is as follows:\nFirst, perform the addition: 100 + 200 = 300\nThen, subtract 300 from the result: 300 - 300 = 0\nTherefore, 100 + 200 - 300 equals 0. \n100+200-300=?\n[Thinking Process]\n<think>\nOkay, so I've got this math problem here:100 plus 200 minus 300. Alright,\nstarting with 100, 100 plus 200 is... let me count... 100, 200, 300. So that's\n300. Now, from there, I need to subtract 300. So, 300 minus 300. Hmm, that\nshould be zero, right? That makes sense. Idon't think I made any mistakes\nhere. So yeah, I'm pretty confident the answer is zero. \n(a)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          314.296875,
+          183.365234375
+        ],
+        [
+          939.7288208007812,
+          183.365234375
+        ],
+        [
+          939.7288208007812,
+          557.8835754394531
+        ],
+        [
+          314.296875,
+          557.8835754394531
+        ]
+      ]
+    },
+    {
+      "title": "B Brief Introduction of Benchmarks",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          304.40234375,
+          679.6025390625
+        ],
+        [
+          501.12890625,
+          679.6025390625
+        ],
+        [
+          501.12890625,
+          692.9260864257812
+        ],
+        [
+          304.40234375,
+          692.9260864257812
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          124.263671875,
+          181.720703125
+        ],
+        [
+          245.908203125,
+          181.720703125
+        ],
+        [
+          245.908203125,
+          191.587890625
+        ],
+        [
+          124.263671875,
+          191.587890625
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          114.66015625,
+          342.4736328125
+        ],
+        [
+          255.51171875,
+          342.4736328125
+        ],
+        [
+          255.51171875,
+          351.5185546875
+        ],
+        [
+          114.66015625,
+          351.5185546875
+        ]
+      ]
+    },
+    {
+      "title": "C Introduction of Baseline Methods",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          70.85653686523438,
+          498.6932067871094
+        ],
+        [
+          263.66015625,
+          498.6932067871094
+        ],
+        [
+          263.66015625,
+          510.6490173339844
+        ],
+        [
+          70.85653686523438,
+          510.6490173339844
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          885
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          198
+        ],
+        [
+          "Line",
+          102
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          99
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          108
+        ],
+        [
+          "Span",
+          48
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          296
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "TableCell",
+          49
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          298
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          26
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          274
+        ],
+        [
+          "Line",
+          81
+        ],
+        [
+          "TableCell",
+          30
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          239
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "Reference",
+          18
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          822
+        ],
+        [
+          "Line",
+          110
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "Reference",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          165
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2025.emnlp-industry.160"
+}

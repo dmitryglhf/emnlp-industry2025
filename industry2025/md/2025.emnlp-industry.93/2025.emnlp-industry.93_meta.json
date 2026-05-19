@@ -1,0 +1,1008 @@
+{
+  "table_of_contents": [
+    {
+      "title": "TOBUGraph: Knowledge Graph-Based Retrieval for Enhanced LLM\nPerformance Beyond RAG",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          82.6484375,
+          74.826171875
+        ],
+        [
+          511.0234375,
+          74.826171875
+        ],
+        [
+          511.0234375,
+          107.0726318359375
+        ],
+        [
+          82.6484375,
+          107.0726318359375
+        ]
+      ]
+    },
+    {
+      "title": "Savini Kashmira",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          104.18359375,
+          119.6396484375
+        ],
+        [
+          192.65234375,
+          119.6396484375
+        ],
+        [
+          192.65234375,
+          132.421142578125
+        ],
+        [
+          104.18359375,
+          132.421142578125
+        ]
+      ]
+    },
+    {
+      "title": "Ashish Mahendra",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          100.69140625,
+          176.3759765625
+        ],
+        [
+          193.9184112548828,
+          176.3759765625
+        ],
+        [
+          193.9184112548828,
+          190.7930908203125
+        ],
+        [
+          100.69140625,
+          190.7930908203125
+        ]
+      ]
+    },
+    {
+      "title": "Jayanaka L. Dantanarayana",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          224.6640625,
+          119.228515625
+        ],
+        [
+          370.456787109375,
+          119.228515625
+        ],
+        [
+          370.456787109375,
+          132.421142578125
+        ],
+        [
+          224.6640625,
+          132.421142578125
+        ]
+      ]
+    },
+    {
+      "title": "Yiping Kang",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          262.205078125,
+          178.83734130859375
+        ],
+        [
+          330.14190673828125,
+          178.83734130859375
+        ],
+        [
+          330.14190673828125,
+          190.7930908203125
+        ],
+        [
+          262.205078125,
+          190.7930908203125
+        ]
+      ]
+    },
+    {
+      "title": "Joshua Brodsky",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          401.01953125,
+          120.05078125
+        ],
+        [
+          488.32421875,
+          120.05078125
+        ],
+        [
+          488.32421875,
+          132.421142578125
+        ],
+        [
+          401.01953125,
+          132.421142578125
+        ]
+      ]
+    },
+    {
+      "title": "Kriszti\u00e1n Flautner",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          395.78125,
+          178.431640625
+        ],
+        [
+          494.6896057128906,
+          178.431640625
+        ],
+        [
+          494.6896057128906,
+          190.7930908203125
+        ],
+        [
+          395.78125,
+          190.7930908203125
+        ]
+      ]
+    },
+    {
+      "title": "Lingjia Tang",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          165.20826721191406,
+          236.4013671875
+        ],
+        [
+          230.8814697265625,
+          236.4013671875
+        ],
+        [
+          230.8814697265625,
+          249.16595458984375
+        ],
+        [
+          165.20826721191406,
+          249.16595458984375
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          157.1484375,
+          296.837890625
+        ],
+        [
+          202.2404022216797,
+          296.837890625
+        ],
+        [
+          202.2404022216797,
+          311.8321533203125
+        ],
+        [
+          157.1484375,
+          311.8321533203125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.85653686523438,
+          686.1806640625
+        ],
+        [
+          153.67434692382812,
+          686.1806640625
+        ],
+        [
+          153.67434692382812,
+          699.5974273681641
+        ],
+        [
+          70.85653686523438,
+          699.5974273681641
+        ]
+      ]
+    },
+    {
+      "title": "Jason Mars",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          364.642578125,
+          236.8125
+        ],
+        [
+          426.919921875,
+          236.8125
+        ],
+        [
+          426.919921875,
+          249.16595458984375
+        ],
+        [
+          364.642578125,
+          249.16595458984375
+        ]
+      ]
+    },
+    {
+      "title": "2 TOBUGraph",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.84375,
+          72.359375
+        ],
+        [
+          156.8816120906801,
+          72.359375
+        ],
+        [
+          156.8816120906801,
+          83.87109375
+        ],
+        [
+          69.84375,
+          83.87109375
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Memory Input Data Collection",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.05793450881612,
+          318.6279296875
+        ],
+        [
+          240.20151133501258,
+          318.6279296875
+        ],
+        [
+          240.20151133501258,
+          329.3173828125
+        ],
+        [
+          69.05793450881612,
+          329.3173828125
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Memory Graph Construction",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.05793450881612,
+          548.0400390625
+        ],
+        [
+          234.19647355163727,
+          548.0400390625
+        ],
+        [
+          234.19647355163727,
+          558.5841495992876
+        ],
+        [
+          69.05793450881612,
+          558.5841495992876
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Memory Retrieval",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          304.7556675062972,
+          553.3357079252004
+        ],
+        [
+          417.35012594458436,
+          553.3357079252004
+        ],
+        [
+          417.35012594458436,
+          563.8325912733749
+        ],
+        [
+          304.7556675062972,
+          563.8325912733749
+        ]
+      ]
+    },
+    {
+      "title": "3 Evaluation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          68.970703125,
+          259.42297417631346
+        ],
+        [
+          145.62216624685138,
+          259.42297417631346
+        ],
+        [
+          145.62216624685138,
+          269.91985752448795
+        ],
+        [
+          68.970703125,
+          269.91985752448795
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Baselines",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.05793450881612,
+          282.037109375
+        ],
+        [
+          138.86649874055416,
+          282.037109375
+        ],
+        [
+          138.86649874055416,
+          291.6634016028495
+        ],
+        [
+          69.05793450881612,
+          291.6634016028495
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Dataset Construction",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          68.970703125,
+          482.2587890625
+        ],
+        [
+          195.16372795969772,
+          482.2587890625
+        ],
+        [
+          195.16372795969772,
+          493.353517364203
+        ],
+        [
+          68.970703125,
+          493.353517364203
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Quantitative Analysis",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          68.3073047858942,
+          632.8121104185218
+        ],
+        [
+          196.66498740554155,
+          632.8121104185218
+        ],
+        [
+          196.66498740554155,
+          643.3089937666963
+        ],
+        [
+          68.3073047858942,
+          643.3089937666963
+        ]
+      ]
+    },
+    {
+      "title": "3.3.1 Retrieval Metrics Evaluation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.05793450881612,
+          650.0009765625
+        ],
+        [
+          238.70025188916875,
+          650.0009765625
+        ],
+        [
+          238.70025188916875,
+          660.5538735529831
+        ],
+        [
+          69.05793450881612,
+          660.5538735529831
+        ]
+      ]
+    },
+    {
+      "title": "3.3.2 User Experience Evaluation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          303.8203125,
+          172.4487978628673
+        ],
+        [
+          470.64483627204027,
+          172.4487978628673
+        ],
+        [
+          470.64483627204027,
+          182.94568121104186
+        ],
+        [
+          303.8203125,
+          182.94568121104186
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Qualitative Analysis",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.7556675062972,
+          584.0765805877114
+        ],
+        [
+          425.6070528967254,
+          584.0765805877114
+        ],
+        [
+          425.6070528967254,
+          594.573463935886
+        ],
+        [
+          304.7556675062972,
+          594.573463935886
+        ]
+      ]
+    },
+    {
+      "title": "(I1) Low recall due to top k chunk limitation: Baseline RAG approaches retrieve only the top k chunks, potentially missing relevant memories if their count exceeds k (I1 in Table 4). As illustrated in Figure 4c, TOBU retrieves all five relevant memories by leveraging graph traversal through the \"California\" relationship node, capturing all",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.7556675062972,
+          680.7978628673196
+        ],
+        [
+          527.6926952141058,
+          680.7978628673196
+        ],
+        [
+          527.6926952141058,
+          772.2707034728405
+        ],
+        [
+          304.7556675062972,
+          772.2707034728405
+        ]
+      ]
+    },
+    {
+      "title": "4 Related Works",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.42578125,
+          528.3056640625
+        ],
+        [
+          164.71484375,
+          528.3056640625
+        ],
+        [
+          164.71484375,
+          540.7795104980469
+        ],
+        [
+          70.42578125,
+          540.7795104980469
+        ]
+      ]
+    },
+    {
+      "title": "5 Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          305.275390625,
+          136.49609375
+        ],
+        [
+          381.21478271484375,
+          136.49609375
+        ],
+        [
+          381.21478271484375,
+          149.49188232421875
+        ],
+        [
+          305.275390625,
+          149.49188232421875
+        ]
+      ]
+    },
+    {
+      "title": "Limitations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          306.1443176269531,
+          353.9853515625
+        ],
+        [
+          365.2657470703125,
+          353.9853515625
+        ],
+        [
+          365.2657470703125,
+          367.0938415527344
+        ],
+        [
+          306.1443176269531,
+          367.0938415527344
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          305.275390625,
+          574.3525390625
+        ],
+        [
+          361.69097900390625,
+          574.3525390625
+        ],
+        [
+          361.69097900390625,
+          587.1147918701172
+        ],
+        [
+          305.275390625,
+          587.1147918701172
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          235
+        ],
+        [
+          "Line",
+          101
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          11
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          94
+        ],
+        [
+          "Span",
+          50
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          117
+        ],
+        [
+          "Span",
+          68
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          109
+        ],
+        [
+          "Span",
+          55
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          85
+        ],
+        [
+          "TableCell",
+          42
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          62
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          275
+        ],
+        [
+          "Line",
+          99
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          247
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "ListItem",
+          21
+        ],
+        [
+          "Reference",
+          19
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2025.emnlp-industry.93"
+}

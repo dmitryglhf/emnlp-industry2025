@@ -1,0 +1,1198 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Multi-Task Pre-Finetuning of Lightweight Transformer Encoders for Text\nClassification and NER",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.84375,
+          78.5263671875
+        ],
+        [
+          523.8429565429688,
+          78.5263671875
+        ],
+        [
+          523.8429565429688,
+          109.563720703125
+        ],
+        [
+          69.84375,
+          109.563720703125
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          156.275390625,
+          222.16241455078125
+        ],
+        [
+          202.255859375,
+          222.16241455078125
+        ],
+        [
+          202.255859375,
+          234.1181640625
+        ],
+        [
+          156.275390625,
+          234.1181640625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.84375,
+          553.1989135742188
+        ],
+        [
+          153.67434692382812,
+          553.1989135742188
+        ],
+        [
+          153.67434692382812,
+          565.1547241210938
+        ],
+        [
+          69.84375,
+          565.1547241210938
+        ]
+      ]
+    },
+    {
+      "title": "Our contributions are:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          69.552734375,
+          719.0712890625
+        ],
+        [
+          176.50552368164062,
+          719.0712890625
+        ],
+        [
+          176.50552368164062,
+          730.7767791748047
+        ],
+        [
+          69.552734375,
+          730.7767791748047
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          306.144287109375,
+          400.443359375
+        ],
+        [
+          395.78125,
+          400.443359375
+        ],
+        [
+          395.78125,
+          413.4211120605469
+        ],
+        [
+          306.144287109375,
+          413.4211120605469
+        ]
+      ]
+    },
+    {
+      "title": "3 Evaluation of Downstream\nPerformance",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          68.6796875,
+          481.84765625
+        ],
+        [
+          225.15805053710938,
+          481.84765625
+        ],
+        [
+          225.15805053710938,
+          509.7699279785156
+        ],
+        [
+          68.6796875,
+          509.7699279785156
+        ]
+      ]
+    },
+    {
+      "title": "4 Pre-Finetuning Strategies for NER and\nText Classification",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          306.1443176269531,
+          646.7119140625
+        ],
+        [
+          523.476806640625,
+          646.7119140625
+        ],
+        [
+          523.476806640625,
+          673.7201232910156
+        ],
+        [
+          306.1443176269531,
+          673.7201232910156
+        ]
+      ]
+    },
+    {
+      "title": "Downstream Performance after Pre-Finetuning.",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          303.8203125,
+          394.38290293855744
+        ],
+        [
+          528.4433249370277,
+          394.38290293855744
+        ],
+        [
+          528.4433249370277,
+          404.5546875
+        ],
+        [
+          303.8203125,
+          404.5546875
+        ]
+      ]
+    },
+    {
+      "title": "5 Interference Between Pre-Finetuning\nfor Text Classification and NER",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          305.56640625,
+          685.3583984375
+        ],
+        [
+          515.6826196473552,
+          685.3583984375
+        ],
+        [
+          515.6826196473552,
+          712.2885129118432
+        ],
+        [
+          305.56640625,
+          712.2885129118432
+        ]
+      ]
+    },
+    {
+      "title": "6 <u>Multi-Task Pre-Finetuning with</u>\nTask-Primary LoRAs (MTPF-TPL)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          306.73046875,
+          232.43098842386465
+        ],
+        [
+          496.1662468513854,
+          232.43098842386465
+        ],
+        [
+          496.1662468513854,
+          257.369140625
+        ],
+        [
+          306.73046875,
+          257.369140625
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Results",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.05793450881612,
+          689.4697265625
+        ],
+        [
+          129.8589420654912,
+          689.4697265625
+        ],
+        [
+          129.8589420654912,
+          699.5422974176313
+        ],
+        [
+          69.05793450881612,
+          699.5422974176313
+        ]
+      ]
+    },
+    {
+      "title": "Applying Task-Primary LoRAs to the Last\nFew Transformer Layers Improves Adaptability.",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.05793450881612,
+          386.8759765625
+        ],
+        [
+          291.9949622166247,
+          386.8759765625
+        ],
+        [
+          291.9949622166247,
+          412.3662109375
+        ],
+        [
+          69.05793450881612,
+          412.3662109375
+        ]
+      ]
+    },
+    {
+      "title": "Freezing the backbone and only fine-tune Lo-",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.05793450881612,
+          710.0391807658059
+        ],
+        [
+          291.9949622166247,
+          710.0391807658059
+        ],
+        [
+          291.9949622166247,
+          722.3603515625
+        ],
+        [
+          69.05793450881612,
+          722.3603515625
+        ]
+      ]
+    },
+    {
+      "title": "7 Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          304.693359375,
+          287.1647373107747
+        ],
+        [
+          381.3198992443325,
+          287.1647373107747
+        ],
+        [
+          381.3198992443325,
+          297.2490234375
+        ],
+        [
+          304.693359375,
+          297.2490234375
+        ]
+      ]
+    },
+    {
+      "title": "Limitations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          304.7556675062972,
+          482.2587890625
+        ],
+        [
+          367.0579345088161,
+          482.2587890625
+        ],
+        [
+          367.0579345088161,
+          491.8539626001781
+        ],
+        [
+          304.7556675062972,
+          491.8539626001781
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          69.26171875,
+          71.9482421875
+        ],
+        [
+          126.40316772460938,
+          71.9482421875
+        ],
+        [
+          126.40316772460938,
+          85.0487060546875
+        ],
+        [
+          69.26171875,
+          85.0487060546875
+        ]
+      ]
+    },
+    {
+      "title": "A Details of Adaptation",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          68.388671875,
+          158.2861328125
+        ],
+        [
+          200.37371826171875,
+          158.2861328125
+        ],
+        [
+          200.37371826171875,
+          171.10498046875
+        ],
+        [
+          68.388671875,
+          171.10498046875
+        ]
+      ]
+    },
+    {
+      "title": "B Details of Pre-Finetuning",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          70.85653686523438,
+          419.7666015625
+        ],
+        [
+          219.41928100585938,
+          419.7666015625
+        ],
+        [
+          219.41928100585938,
+          432.1590881347656
+        ],
+        [
+          70.85653686523438,
+          432.1590881347656
+        ]
+      ]
+    },
+    {
+      "title": "Original Sentence:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          320.1171875,
+          78.115234375
+        ],
+        [
+          392.29974365234375,
+          78.115234375
+        ],
+        [
+          392.29974365234375,
+          88.48651123046875
+        ],
+        [
+          320.1171875,
+          88.48651123046875
+        ]
+      ]
+    },
+    {
+      "title": "Perturbed Sentences:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          320.8160400390625,
+          115.939453125
+        ],
+        [
+          403.9296875,
+          115.939453125
+        ],
+        [
+          403.9296875,
+          125.54937744140625
+        ],
+        [
+          320.8160400390625,
+          125.54937744140625
+        ]
+      ]
+    },
+    {
+      "title": "C Detailed Downstream Performance on\nSub-Tasks",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          306.1443176269531,
+          685.3583984375
+        ],
+        [
+          521.5,
+          685.3583984375
+        ],
+        [
+          521.5,
+          713.0741119384766
+        ],
+        [
+          306.1443176269531,
+          713.0741119384766
+        ]
+      ]
+    },
+    {
+      "title": "D Downstream Performance of NER\nSub-Tasks with Limited Data",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          304.7556675062972,
+          718.286731967943
+        ],
+        [
+          502.92191435768257,
+          718.286731967943
+        ],
+        [
+          502.92191435768257,
+          742.2796081923419
+        ],
+        [
+          304.7556675062972,
+          742.2796081923419
+        ]
+      ]
+    },
+    {
+      "title": "E Reproducing the Interference Between\nPre-Finetuning Strategies Using\nOpen-Source Models",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          70.42578125,
+          536.0908281389136
+        ],
+        [
+          289.74307304785896,
+          536.0908281389136
+        ],
+        [
+          289.74307304785896,
+          575.5859375
+        ],
+        [
+          70.42578125,
+          575.5859375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          209
+        ],
+        [
+          "Line",
+          78
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          260
+        ],
+        [
+          "Line",
+          100
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          327
+        ],
+        [
+          "Line",
+          89
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          117
+        ],
+        [
+          "Span",
+          58
+        ],
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          128
+        ],
+        [
+          "Span",
+          21
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          112
+        ],
+        [
+          "TableCell",
+          78
+        ],
+        [
+          "Span",
+          60
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          112
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          274
+        ],
+        [
+          "Line",
+          112
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Reference",
+          19
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          298
+        ],
+        [
+          "Line",
+          111
+        ],
+        [
+          "ListItem",
+          23
+        ],
+        [
+          "Reference",
+          22
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          424
+        ],
+        [
+          "Line",
+          102
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Reference",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          275
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "Table",
+          5
+        ],
+        [
+          "Caption",
+          5
+        ],
+        [
+          "TableGroup",
+          5
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          95
+        ],
+        [
+          "Line",
+          60
+        ],
+        [
+          "Span",
+          21
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          222
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2025.emnlp-industry.118"
+}

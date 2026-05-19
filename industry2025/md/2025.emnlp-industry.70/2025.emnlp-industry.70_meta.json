@@ -1,0 +1,1035 @@
+{
+  "table_of_contents": [
+    {
+      "title": "An Address Intelligence Framework for E-commerce Deliveries",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          102.4375,
+          78.7257080078125
+        ],
+        [
+          491.234375,
+          78.7257080078125
+        ],
+        [
+          491.234375,
+          93.0726318359375
+        ],
+        [
+          102.4375,
+          93.0726318359375
+        ]
+      ]
+    },
+    {
+      "title": "Gokul Swamy, Aman Gulati, Srinivas Virinchi, Anoop Saladi",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          143.1796875,
+          127.451171875
+        ],
+        [
+          454.6015930175781,
+          127.451171875
+        ],
+        [
+          454.6015930175781,
+          140.33416748046875
+        ],
+        [
+          143.1796875,
+          140.33416748046875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          157.73046875,
+          221.80206298828125
+        ],
+        [
+          202.1202850341797,
+          221.80206298828125
+        ],
+        [
+          202.1202850341797,
+          233.7578125
+        ],
+        [
+          157.73046875,
+          233.7578125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.42578125,
+          416.4775390625
+        ],
+        [
+          153.710205078125,
+          416.4775390625
+        ],
+        [
+          153.710205078125,
+          430.0836486816406
+        ],
+        [
+          70.42578125,
+          430.0836486816406
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.6796875,
+          245.4462890625
+        ],
+        [
+          160.63476070528966,
+          245.4462890625
+        ],
+        [
+          160.63476070528966,
+          255.6740872662511
+        ],
+        [
+          68.6796875,
+          255.6740872662511
+        ]
+      ]
+    },
+    {
+      "title": "3 Address Validation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          305.275390625,
+          449.1166518254675
+        ],
+        [
+          421.8539042821159,
+          449.1166518254675
+        ],
+        [
+          421.8539042821159,
+          458.86375779162955
+        ],
+        [
+          305.275390625,
+          458.86375779162955
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Address Completion",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.05793450881612,
+          122.21371326803205
+        ],
+        [
+          190.65994962216624,
+          122.21371326803205
+        ],
+        [
+          190.65994962216624,
+          133.20703125
+        ],
+        [
+          69.05793450881612,
+          133.20703125
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Spell Correction",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          305.857421875,
+          73.181640625
+        ],
+        [
+          407.59193954659946,
+          73.181640625
+        ],
+        [
+          407.59193954659946,
+          83.048828125
+        ],
+        [
+          305.857421875,
+          83.048828125
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Address Sequence Standardization",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          304.7556675062972,
+          248.32421875
+        ],
+        [
+          493.1637279596977,
+          248.32421875
+        ],
+        [
+          493.1637279596977,
+          258.67319679430096
+        ],
+        [
+          304.7556675062972,
+          258.67319679430096
+        ]
+      ]
+    },
+    {
+      "title": "4 Multi-task Operational Loss Prediction",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.84375,
+          235.990234375
+        ],
+        [
+          290.4937027707808,
+          235.990234375
+        ],
+        [
+          290.4937027707808,
+          247.501953125
+        ],
+        [
+          69.84375,
+          247.501953125
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Multi-task Pareto Optimal Transformer (MTPOT)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          303.8203125,
+          389.75390625
+        ],
+        [
+          517.9345088161209,
+          389.75390625
+        ],
+        [
+          517.9345088161209,
+          413.87711487088154
+        ],
+        [
+          303.8203125,
+          413.87711487088154
+        ]
+      ]
+    },
+    {
+      "title": "5 Results",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.05793450881612,
+          597.3759765625
+        ],
+        [
+          126.85642317380352,
+          597.3759765625
+        ],
+        [
+          126.85642317380352,
+          607.319679430098
+        ],
+        [
+          69.05793450881612,
+          607.319679430098
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Address Validation",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.05793450881612,
+          617.1103515625
+        ],
+        [
+          184.65491183879092,
+          617.1103515625
+        ],
+        [
+          184.65491183879092,
+          627.5636687444345
+        ],
+        [
+          69.05793450881612,
+          627.5636687444345
+        ]
+      ]
+    },
+    {
+      "title": "5.1.1 Address Auto-completion",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.05793450881612,
+          698.7925200356188
+        ],
+        [
+          222.93702770780857,
+          698.7925200356188
+        ],
+        [
+          222.93702770780857,
+          708.5396260017809
+        ],
+        [
+          69.05793450881612,
+          708.5396260017809
+        ]
+      ]
+    },
+    {
+      "title": "5.1.2 Address Spell-correction & Sequence Standardization",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.40234375,
+          242.92787177203917
+        ],
+        [
+          513.4307304785893,
+          242.92787177203917
+        ],
+        [
+          513.4307304785893,
+          266.0029296875
+        ],
+        [
+          304.40234375,
+          266.0029296875
+        ]
+      ]
+    },
+    {
+      "title": "5.2 MTPOT Evaluation and Impact",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.7556675062972,
+          701.7916295636687
+        ],
+        [
+          482.6549118387909,
+          701.7916295636687
+        ],
+        [
+          482.6549118387909,
+          711.6708984375
+        ],
+        [
+          304.7556675062972,
+          711.6708984375
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.552734375,
+          597.3759765625
+        ],
+        [
+          145.927001953125,
+          597.3759765625
+        ],
+        [
+          145.927001953125,
+          611.0176544189453
+        ],
+        [
+          69.552734375,
+          611.0176544189453
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          306.1443176269531,
+          392.220703125
+        ],
+        [
+          361.1888122558594,
+          392.220703125
+        ],
+        [
+          361.1888122558594,
+          404.52734375
+        ],
+        [
+          306.1443176269531,
+          404.52734375
+        ]
+      ]
+    },
+    {
+      "title": "A Spell Correction",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          68.6796875,
+          71.1259765625
+        ],
+        [
+          175.64735516372795,
+          71.1259765625
+        ],
+        [
+          175.64735516372795,
+          82.47551202137133
+        ],
+        [
+          68.6796875,
+          82.47551202137133
+        ]
+      ]
+    },
+    {
+      "title": "B Address Standardization Model",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          69.84375,
+          411.5439453125
+        ],
+        [
+          253.71284634760704,
+          411.5439453125
+        ],
+        [
+          253.71284634760704,
+          422.87444345503116
+        ],
+        [
+          69.84375,
+          422.87444345503116
+        ]
+      ]
+    },
+    {
+      "title": "B.1 Model Architecture Details",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          69.84375,
+          432.9228515625
+        ],
+        [
+          224.43828715365237,
+          432.9228515625
+        ],
+        [
+          224.43828715365237,
+          442.36865538735526
+        ],
+        [
+          69.84375,
+          442.36865538735526
+        ]
+      ]
+    },
+    {
+      "title": "B.2 Position Score Computation",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          69.05793450881612,
+          668.0516473731077
+        ],
+        [
+          228.19143576826195,
+          668.0516473731077
+        ],
+        [
+          228.19143576826195,
+          678.7802734375
+        ],
+        [
+          69.05793450881612,
+          678.7802734375
+        ]
+      ]
+    },
+    {
+      "title": "B.3 Permutation Generation and Training",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          304.40234375,
+          122.21371326803205
+        ],
+        [
+          511.9294710327456,
+          122.21371326803205
+        ],
+        [
+          511.9294710327456,
+          132.384765625
+        ],
+        [
+          304.40234375,
+          132.384765625
+        ]
+      ]
+    },
+    {
+      "title": "C MTPOT Modelling Steps",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          307.3125,
+          409.37845057880673
+        ],
+        [
+          457.13350125944584,
+          409.37845057880673
+        ],
+        [
+          457.13350125944584,
+          421.0
+        ],
+        [
+          307.3125,
+          421.0
+        ]
+      ]
+    },
+    {
+      "title": "3. Task-Specific Model Extension",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          78.816120906801,
+          309.6580587711487
+        ],
+        [
+          236.448362720403,
+          309.6580587711487
+        ],
+        [
+          236.448362720403,
+          320.9047195013357
+        ],
+        [
+          78.816120906801,
+          320.9047195013357
+        ]
+      ]
+    },
+    {
+      "title": "4. Ensemble Prediction",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          77.701171875,
+          413.1884765625
+        ],
+        [
+          190.65994962216624,
+          413.1884765625
+        ],
+        [
+          190.65994962216624,
+          424.3739982190561
+        ],
+        [
+          77.701171875,
+          424.3739982190561
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          176
+        ],
+        [
+          "Line",
+          84
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          107
+        ],
+        [
+          "Span",
+          80
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          108
+        ],
+        [
+          "Span",
+          69
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          115
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          90
+        ],
+        [
+          "Span",
+          35
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          262
+        ],
+        [
+          "Line",
+          89
+        ],
+        [
+          "TableCell",
+          36
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          173
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "Reference",
+          18
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          118
+        ],
+        [
+          "Span",
+          106
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "Equation",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          36
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2025.emnlp-industry.70"
+}

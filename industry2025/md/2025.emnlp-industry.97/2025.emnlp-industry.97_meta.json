@@ -1,0 +1,1186 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Computational Blueprints: Generating Isomorphic Mathematics Problems\nwith Large Language Models",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.84375,
+          77.7041015625
+        ],
+        [
+          524.4684448242188,
+          77.7041015625
+        ],
+        [
+          524.4684448242188,
+          109.542724609375
+        ],
+        [
+          69.84375,
+          109.542724609375
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          157.1484375,
+          222.14141845703125
+        ],
+        [
+          202.24037170410156,
+          222.14141845703125
+        ],
+        [
+          202.24037170410156,
+          234.09716796875
+        ],
+        [
+          157.1484375,
+          234.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.85653686523438,
+          571.0634765625
+        ],
+        [
+          153.67434692382812,
+          571.0634765625
+        ],
+        [
+          153.67434692382812,
+          583.5416564941406
+        ],
+        [
+          70.85653686523438,
+          583.5416564941406
+        ]
+      ]
+    },
+    {
+      "title": "2 Isomorphic Mathematics Problem\nGeneration",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          306.144287109375,
+          603.66943359375
+        ],
+        [
+          499.3828125,
+          603.66943359375
+        ],
+        [
+          499.3828125,
+          629.5739135742188
+        ],
+        [
+          306.144287109375,
+          629.5739135742188
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Task Definition",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          304.984375,
+          636.8447265625
+        ],
+        [
+          402.765625,
+          636.8447265625
+        ],
+        [
+          402.765625,
+          649.9417572021484
+        ],
+        [
+          304.984375,
+          649.9417572021484
+        ]
+      ]
+    },
+    {
+      "title": "Original Mathematics Problem\n\nLet the integer part of \\sqrt{10}-2 be a, and the decimal part be b. Find the value of a-b.\n\n3<\\sqrt{10}<4\n\nSince 1<\\sqrt{10}-2<2 we have\n\na=1,\\ b=(\\sqrt{10}-2)-1=\\sqrt{10}-3\n\\therefore a-b=1-(\\sqrt{10}-3)=4-\\sqrt{10}",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          150.74609375,
+          75.72751558325912
+        ],
+        [
+          291.59765625,
+          75.72751558325912
+        ],
+        [
+          291.59765625,
+          172.67578125
+        ],
+        [
+          150.74609375,
+          172.67578125
+        ]
+      ]
+    },
+    {
+      "title": "Let the integer part of \\sqrt{111} - 9 be a, and the decimal part be b. Find the value of a - b. 10 < \\sqrt{111} < 11 Since 1 < \\sqrt{111} - 9 < 2, we have a = 1, \\ b = (\\sqrt{111} - 9) - 1 = \\sqrt{111} - 10 \\therefore \\ a - b = 1 - (\\sqrt{111} - 10) = 11 - \\sqrt{111}",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          300.328125,
+          92.97239536954585
+        ],
+        [
+          449.328125,
+          92.97239536954585
+        ],
+        [
+          449.328125,
+          171.853515625
+        ],
+        [
+          300.328125,
+          171.853515625
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Benchmark",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.05793450881612,
+          705.540516473731
+        ],
+        [
+          150.8765743073048,
+          705.540516473731
+        ],
+        [
+          150.8765743073048,
+          715.2876224398931
+        ],
+        [
+          69.05793450881612,
+          715.2876224398931
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Metric",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.05793450881612,
+          219.544921875
+        ],
+        [
+          127.60705289672543,
+          219.544921875
+        ],
+        [
+          127.60705289672543,
+          229.43187889581478
+        ],
+        [
+          69.05793450881612,
+          229.43187889581478
+        ]
+      ]
+    },
+    {
+      "title": "3 Proposed Method",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          304.7556675062972,
+          251.2021484375
+        ],
+        [
+          415.09823677581863,
+          251.2021484375
+        ],
+        [
+          415.09823677581863,
+          262.4220837043633
+        ],
+        [
+          304.7556675062972,
+          262.4220837043633
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Iterative vs. Batch",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          305.56640625,
+          272.9189670525378
+        ],
+        [
+          416.59949622166243,
+          272.9189670525378
+        ],
+        [
+          416.59949622166243,
+          282.6660730186999
+        ],
+        [
+          305.56640625,
+          282.6660730186999
+        ]
+      ]
+    },
+    {
+      "title": "3.2 AIC-Batch",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          304.7556675062972,
+          719.0365093499554
+        ],
+        [
+          382.8211586901763,
+          719.0365093499554
+        ],
+        [
+          382.8211586901763,
+          728.7836153161176
+        ],
+        [
+          304.7556675062972,
+          728.7836153161176
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Blueprint for Isomorphic Twin",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.84375,
+          500.88018798828125
+        ],
+        [
+          238.77780151367188,
+          500.88018798828125
+        ],
+        [
+          238.77780151367188,
+          511.78985595703125
+        ],
+        [
+          69.84375,
+          511.78985595703125
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Computational Blueprint for Isomorphic\nTwin",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          303.8203125,
+          716.193359375
+        ],
+        [
+          520.9334106445312,
+          716.193359375
+        ],
+        [
+          520.9334106445312,
+          742.3033599853516
+        ],
+        [
+          303.8203125,
+          742.3033599853516
+        ]
+      ]
+    },
+    {
+      "title": "4 Experimental Results",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          302.947265625,
+          526.7425842285156
+        ],
+        [
+          433.9996337890625,
+          526.7425842285156
+        ],
+        [
+          433.9996337890625,
+          538.6983947753906
+        ],
+        [
+          302.947265625,
+          538.6983947753906
+        ]
+      ]
+    },
+    {
+      "title": "Generation Accuracy and Cost Effectiveness:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          306.1443176269531,
+          547.9495849609375
+        ],
+        [
+          526.230712890625,
+          547.9495849609375
+        ],
+        [
+          526.230712890625,
+          559.0774230957031
+        ],
+        [
+          306.1443176269531,
+          559.0774230957031
+        ]
+      ]
+    },
+    {
+      "title": "5 Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          306.1443176269531,
+          449.2347106933594
+        ],
+        [
+          382.103515625,
+          449.2347106933594
+        ],
+        [
+          382.103515625,
+          461.1905212402344
+        ],
+        [
+          306.1443176269531,
+          461.1905212402344
+        ]
+      ]
+    },
+    {
+      "title": "Limitations",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.42578125,
+          71.9482421875
+        ],
+        [
+          129.9779510498047,
+          71.9482421875
+        ],
+        [
+          129.9779510498047,
+          85.0487060546875
+        ],
+        [
+          70.42578125,
+          85.0487060546875
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          69.552734375,
+          439.5009765625
+        ],
+        [
+          126.40316772460938,
+          439.5009765625
+        ],
+        [
+          126.40316772460938,
+          453.110107421875
+        ],
+        [
+          69.552734375,
+          453.110107421875
+        ]
+      ]
+    },
+    {
+      "title": "A Details on Benchmark",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          67.806640625,
+          71.537109375
+        ],
+        [
+          205.02450561523438,
+          71.537109375
+        ],
+        [
+          205.02450561523438,
+          85.0487060546875
+        ],
+        [
+          67.806640625,
+          85.0487060546875
+        ]
+      ]
+    },
+    {
+      "title": "Algorithm 1 Verification Procedure for Problem #20570",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          69.05793450881612,
+          256.4238646482636
+        ],
+        [
+          319.0176322418136,
+          256.4238646482636
+        ],
+        [
+          319.0176322418136,
+          266.9207479964381
+        ],
+        [
+          69.05793450881612,
+          266.9207479964381
+        ]
+      ]
+    },
+    {
+      "title": "B Detailed Comparison on Iterative and Batch prompting",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          70.85653686523438,
+          72.7705078125
+        ],
+        [
+          373.9479675292969,
+          72.7705078125
+        ],
+        [
+          373.9479675292969,
+          85.0487060546875
+        ],
+        [
+          70.85653686523438,
+          85.0487060546875
+        ]
+      ]
+    },
+    {
+      "title": "C Code-guided Prompting for CBIT",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          69.84375,
+          71.1259765625
+        ],
+        [
+          264.97229219143577,
+          71.1259765625
+        ],
+        [
+          264.97229219143577,
+          83.22528940338378
+        ],
+        [
+          69.84375,
+          83.22528940338378
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          240
+        ],
+        [
+          "Line",
+          92
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          263
+        ],
+        [
+          "Line",
+          102
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          108
+        ],
+        [
+          "Span",
+          71
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          105
+        ],
+        [
+          "Span",
+          61
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          194
+        ],
+        [
+          "Line",
+          103
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PictureGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          232
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "TableCell",
+          33
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          233
+        ],
+        [
+          "Line",
+          93
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          244
+        ],
+        [
+          "Line",
+          107
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Reference",
+          15
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Reference",
+          7
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          285
+        ],
+        [
+          "Line",
+          87
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          47
+        ],
+        [
+          "Span",
+          42
+        ],
+        [
+          "TableCell",
+          40
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          77
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2025.emnlp-industry.97"
+}

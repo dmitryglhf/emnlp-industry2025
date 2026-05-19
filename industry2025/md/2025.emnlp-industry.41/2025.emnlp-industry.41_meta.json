@@ -1,0 +1,1177 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Towards Enforcing Company Policy Adherence in Agentic Workflows",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          83.8125,
+          79.25494384765625
+        ],
+        [
+          510.4851379394531,
+          79.25494384765625
+        ],
+        [
+          510.4851379394531,
+          93.60186767578125
+        ],
+        [
+          83.8125,
+          93.60186767578125
+        ]
+      ]
+    },
+    {
+      "title": "Naama Zwerdling David Boaz Ella Rabinovich Guy Uziel\nDavid Amid Ateret Anaby-Tavor",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          109.421875,
+          116.76171875
+        ],
+        [
+          488.0843811035156,
+          116.76171875
+        ],
+        [
+          488.0843811035156,
+          144.03863525390625
+        ],
+        [
+          109.421875,
+          144.03863525390625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          157.439453125,
+          222.14141845703125
+        ],
+        [
+          202.24038696289062,
+          222.14141845703125
+        ],
+        [
+          202.24038696289062,
+          234.09716796875
+        ],
+        [
+          157.439453125,
+          234.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.85653686523438,
+          458.7242126464844
+        ],
+        [
+          153.67434692382812,
+          458.7242126464844
+        ],
+        [
+          153.67434692382812,
+          470.6800231933594
+        ],
+        [
+          70.85653686523438,
+          470.6800231933594
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          69.26171875,
+          423.0556640625
+        ],
+        [
+          159.95114135742188,
+          423.0556640625
+        ],
+        [
+          159.95114135742188,
+          437.4283447265625
+        ],
+        [
+          69.26171875,
+          437.4283447265625
+        ]
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          304.40234375,
+          636.8447265625
+        ],
+        [
+          391.1619873046875,
+          636.8447265625
+        ],
+        [
+          391.1619873046875,
+          650.1809539794922
+        ],
+        [
+          304.40234375,
+          650.1809539794922
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Tool-Policy Mapper",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.26171875,
+          281.21484375
+        ],
+        [
+          187.81884765625,
+          281.21484375
+        ],
+        [
+          187.81884765625,
+          293.07391357421875
+        ],
+        [
+          69.26171875,
+          293.07391357421875
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1 Evaluation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          304.984375,
+          528.3056640625
+        ],
+        [
+          389.6903991699219,
+          528.3056640625
+        ],
+        [
+          389.6903991699219,
+          540.6463012695312
+        ],
+        [
+          304.984375,
+          540.6463012695312
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Generation of ToolGuards",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          303.23828125,
+          636.8447265625
+        ],
+        [
+          453.38035264483625,
+          636.8447265625
+        ],
+        [
+          453.38035264483625,
+          648.5574354407836
+        ],
+        [
+          303.23828125,
+          648.5574354407836
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1 Evaluation",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.40234375,
+          268.880859375
+        ],
+        [
+          389.6903991699219,
+          268.880859375
+        ],
+        [
+          389.6903991699219,
+          280.48028564453125
+        ],
+        [
+          304.40234375,
+          280.48028564453125
+        ]
+      ]
+    },
+    {
+      "title": "4 Agentic Flow with Policy Adherence",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.84375,
+          349.5007019042969
+        ],
+        [
+          273.5072937011719,
+          349.5007019042969
+        ],
+        [
+          273.5072937011719,
+          361.4565124511719
+        ],
+        [
+          69.84375,
+          361.4565124511719
+        ]
+      ]
+    },
+    {
+      "title": "5 Discussion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.26171875,
+          115.939453125
+        ],
+        [
+          142.603271484375,
+          115.939453125
+        ],
+        [
+          142.603271484375,
+          128.017822265625
+        ],
+        [
+          69.26171875,
+          128.017822265625
+        ]
+      ]
+    },
+    {
+      "title": "Integration into Existing Agentic Frameworks",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.26171875,
+          263.0784912109375
+        ],
+        [
+          289.26953125,
+          263.0784912109375
+        ],
+        [
+          289.26953125,
+          274.16265869140625
+        ],
+        [
+          69.26171875,
+          274.16265869140625
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusions",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.26171875,
+          452.6572265625
+        ],
+        [
+          150.5778045654297,
+          452.6572265625
+        ],
+        [
+          150.5778045654297,
+          466.4097595214844
+        ],
+        [
+          69.26171875,
+          466.4097595214844
+        ]
+      ]
+    },
+    {
+      "title": "Ethical Considerations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.26171875,
+          682.8916015625
+        ],
+        [
+          187.43751525878906,
+          682.8916015625
+        ],
+        [
+          187.43751525878906,
+          696.9352722167969
+        ],
+        [
+          69.26171875,
+          696.9352722167969
+        ]
+      ]
+    },
+    {
+      "title": "Limitations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          305.56640625,
+          72.359375
+        ],
+        [
+          365.2657470703125,
+          72.359375
+        ],
+        [
+          365.2657470703125,
+          85.0487060546875
+        ],
+        [
+          305.56640625,
+          85.0487060546875
+        ]
+      ]
+    },
+    {
+      "title": "Acknowledgements",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          304.111328125,
+          306.03662109375
+        ],
+        [
+          404.98291015625,
+          306.03662109375
+        ],
+        [
+          404.98291015625,
+          317.99237060546875
+        ],
+        [
+          304.111328125,
+          317.99237060546875
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          306.1443176269531,
+          402.6923828125
+        ],
+        [
+          362.314453125,
+          402.6923828125
+        ],
+        [
+          362.314453125,
+          414.648193359375
+        ],
+        [
+          306.1443176269531,
+          414.648193359375
+        ]
+      ]
+    },
+    {
+      "title": "7 Appendices",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          69.26171875,
+          468.9217224121094
+        ],
+        [
+          147.6127471923828,
+          468.9217224121094
+        ],
+        [
+          147.6127471923828,
+          480.8775329589844
+        ],
+        [
+          69.26171875,
+          480.8775329589844
+        ]
+      ]
+    },
+    {
+      "title": "7.1 Buildtime: Detailed Description of\nTool-Policy Mapper",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          69.84375,
+          490.00665283203125
+        ],
+        [
+          256.09375,
+          490.00665283203125
+        ],
+        [
+          256.09375,
+          515.1494140625
+        ],
+        [
+          69.84375,
+          515.1494140625
+        ]
+      ]
+    },
+    {
+      "title": "7.1.1 Tool-Policy Mapper Example Prompt",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          305.56640625,
+          665.7644348144531
+        ],
+        [
+          513.93359375,
+          665.7644348144531
+        ],
+        [
+          513.93359375,
+          676.674072265625
+        ],
+        [
+          305.56640625,
+          676.674072265625
+        ]
+      ]
+    },
+    {
+      "title": "7.2 Buildtime: Detailed Description of\nToolGuard Generator",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          70.42578125,
+          372.05078125
+        ],
+        [
+          255.75320434570312,
+          372.05078125
+        ],
+        [
+          255.75320434570312,
+          396.5101318359375
+        ],
+        [
+          70.42578125,
+          396.5101318359375
+        ]
+      ]
+    },
+    {
+      "title": "7.2.1 Input to the Guard Function",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          69.84375,
+          505.2822265625
+        ],
+        [
+          236.9449920654297,
+          505.2822265625
+        ],
+        [
+          236.9449920654297,
+          516.1920776367188
+        ],
+        [
+          69.84375,
+          516.1920776367188
+        ]
+      ]
+    },
+    {
+      "title": "7.2.2 Modularity and Execution",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          305.56640625,
+          73.181640625
+        ],
+        [
+          462.71484375,
+          73.181640625
+        ],
+        [
+          462.71484375,
+          84.77459716796875
+        ],
+        [
+          305.56640625,
+          84.77459716796875
+        ]
+      ]
+    },
+    {
+      "title": "7.2.3 Test-Driven Development Workflow",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          305.56640625,
+          204.3330078125
+        ],
+        [
+          505.529052734375,
+          204.3330078125
+        ],
+        [
+          505.529052734375,
+          216.5421142578125
+        ],
+        [
+          305.56640625,
+          216.5421142578125
+        ]
+      ]
+    },
+    {
+      "title": "7.2.4 Isolated Policy Validation",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          305.56640625,
+          527.0985107421875
+        ],
+        [
+          458.05859375,
+          527.0985107421875
+        ],
+        [
+          458.05859375,
+          538.0081787109375
+        ],
+        [
+          305.56640625,
+          538.0081787109375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          234
+        ],
+        [
+          "Line",
+          91
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          243
+        ],
+        [
+          "Line",
+          99
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          206
+        ],
+        [
+          "Line",
+          75
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          92
+        ],
+        [
+          "Span",
+          40
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          266
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "TableCell",
+          51
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          240
+        ],
+        [
+          "Line",
+          75
+        ],
+        [
+          "TableCell",
+          41
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          215
+        ],
+        [
+          "Line",
+          97
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Reference",
+          6
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          305
+        ],
+        [
+          "Line",
+          109
+        ],
+        [
+          "ListItem",
+          24
+        ],
+        [
+          "Reference",
+          23
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          243
+        ],
+        [
+          "Line",
+          100
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "Reference",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          175
+        ],
+        [
+          "Line",
+          72
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          5
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          3
+        ],
+        [
+          "Line",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2025.emnlp-industry.41"
+}
